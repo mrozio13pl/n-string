@@ -1,0 +1,32 @@
+{
+    "name": "n-string",
+    "version": "1.0.0",
+    "description": "Probably the fastest way to repeat a string.",
+    "bugs": "https://github.com/mrozio13pl/n-string/issues",
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/mrozio13pl/n-string"
+    },
+    "author": "mrozio13pl",
+    "license": "MIT",
+    "homepage": "https://github.com/mrozio13pl/n-string",
+    "keywords": [
+        "repeat",
+        "string"
+    ],
+    "main": "index.js",
+    "devDependencies": {
+        "ava": "^5.3.1",
+        "benchmarked": "^2.0.0",
+        "repeat-string": "^1.6.1",
+        "repeating": "^2.0.1"
+    },
+    "files": [
+        "index.js",
+        "index.d.ts"
+    ],
+    "scripts": {
+        "test": "ava",
+        "bench": "node ./benchmark/index -dry"
+    }
+}
