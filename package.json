@@ -1,6 +1,6 @@
 {
     "name": "n-string",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Probably the fastest way to repeat a string.",
     "bugs": "https://github.com/mrozio13pl/n-string/issues",
     "repository": {
