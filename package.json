@@ -12,7 +12,15 @@
     "homepage": "https://github.com/mrozio13pl/n-string",
     "keywords": [
         "repeat",
-        "string"
+        "string",
+        "fast",
+        "fill",
+        "text",
+        "pad",
+        "padding",
+        "repeating",
+        "repetition",
+        "times"
     ],
     "main": "index.js",
     "devDependencies": {
