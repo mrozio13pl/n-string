@@ -17,7 +17,9 @@
     "main": "index.js",
     "devDependencies": {
         "ava": "^5.3.1",
-        "benchmarked": "^2.0.0",
+        "benchmarked": "^2.0.0"
+    },
+    "benchmarkDependencies": {
         "repeat-string": "^1.6.1",
         "repeating": "^2.0.1"
     },
