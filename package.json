@@ -1,6 +1,6 @@
 {
     "name": "n-string",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Repeat a string with the use of cache.",
     "type": "commonjs",
     "repository": "mrozio13pl/n-string",
