@@ -1,28 +1,26 @@
-'use strict';
+'use strict'
 
 // uses cache if given string was previously repeated
-var cache;
-var _n;
-var res = '';
+var cache, _n, res = ''
 
 module.exports = function (str, n) {
     if (typeof str !== 'string') {
-        throw new TypeError(`Expected \`input\` to be a \`string\`, received ${typeof str}`);
+        throw new TypeError(`Expected \`input\` to be a \`string\`, received ${typeof str}`)
     }
 
     if (cache !== str || _n !== n) {
-        cache = str;
-        res = '';
-        _n = n;
+        cache = str
+        res = ''
+        _n = n
     } else {
-        return res;
+        return res
     }
 
     while (n > 0) {
-        if (n & 1) res += str;
-        n >>= 1;
-        str += str;
+        if (n & 1) res += str
+        n >>= 1
+        str += str
     }
 
-    return res;
-};
+    return res
+}

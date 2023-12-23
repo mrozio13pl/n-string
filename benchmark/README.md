@@ -79,4 +79,4 @@
 
 # Acknowledgements
 
-- [Benchmark](https://github.com/jonschlinkert/repeat-string)
+- [Original benchmark](https://github.com/jonschlinkert/repeat-string)

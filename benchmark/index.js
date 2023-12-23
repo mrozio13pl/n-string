@@ -1,7 +1,7 @@
 'use strict';
 
 var util = require('util');
-var cyan = require('ansi-cyan');
+var { cyan } = require('picocolors');
 var argv = require('yargs-parser')(process.argv.slice(2));
 var Suite = require('benchmarked');
 
